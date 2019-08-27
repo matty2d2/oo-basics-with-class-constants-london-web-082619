@@ -4,7 +4,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
   
-  BRANDS = Set.new                #sets are always unique
+  BRANDS = Set.new                #sets always contain unique elements
   
   def initialize(brand)
     @brand = brand
