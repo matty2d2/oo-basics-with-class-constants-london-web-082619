@@ -8,7 +8,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << @brand              #we can add
+    BRANDS << @brand #we can update in step-one since each shoe instance has a brand
   end
 
   def cobble
